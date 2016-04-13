@@ -1,2 +1,3 @@
-# game-of-life
-Conway's Game of Life.
+# Conway's Game of Life
+
+An implementation of Conway's Game of Life in OpenGL Shading Language.
