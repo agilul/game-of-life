@@ -15,7 +15,7 @@ void mainImage( out vec4 fragColor, in vec2 fragCoord )
         }
     }
     
-   	vec3 cell = texture2D(iChannel0, fragCoord.xy / iResolution.xy).rgb;
+    vec3 cell = texture2D(iChannel0, fragCoord.xy / iResolution.xy).rgb;
     alive -= cell.r;
     
     if (cell.r > 0.0)
